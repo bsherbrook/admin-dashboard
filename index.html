@@ -6,27 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="dashboard">
     <div class="sidebar">
-        <img src="" alt="The company logo" class="sidebar__logo--pic">
-        <div class="sidebar__logo">Dashboard</div>
-        <div class="sidebar__links">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Messages</a> </li>
-                <li><a href="">History</a> </li>
-                <li><a href="">Tasks</a> </li>
-                <li><a href="">Communities</a> </li>
+        <div class="sidebar__logobox">
+            <img class="logo--white" src="./img/logo.png" alt="The company logo" class="sidebar__logo--pic">
+            <div class="sidebar__logo-text">Dashboard</div>
+        </div>
+        <div class="sidebar__linkBox">
+            <ul class="sidebar__links">
+                <li><img class="icon--white" src="./img/home.svg" alt=""><a href="">Home</a></li>
+                <li><img class="icon--white" src="./img/profiles.png" alt=""><a href="">Profile</a></li>
+                <li><img class="icon--white" src="./img/messages.png" alt=""><a href="">Messages</a> </li>
+                <li><img class="icon--white" src="./img/history.png" alt=""><a href="">History</a> </li>
+                <li><img src="./img/tasks.png" class="icon--white" alt=""><a href="">Tasks</a> </li>
+                <li><img src="./img/community.png" class="icon--white" alt=""><a href="">Communities</a> </li>
             </ul>
         </div>
-        <div class="sidebar__settings">
-            <ul>
-                <li><a href="">Settings</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="">Privacy</a></li>
+        <div class="sidebar__linkBox">
+            <ul class="sidebar__links">
+                <li><img src="./img/settings.png" class="icon--white" alt=""><a href="">Settings</a></li>
+                <li><img src="./img/support.png" class="icon--white" alt=""><a href="">Support</a></li>
+                <li><img src="./img/privacy.png" class="icon--white" alt=""><a href="">Privacy</a></li>
             </ul>
         </div>
     </div>
