@@ -1,1 +1,2 @@
 # admin-dashboard
+This is the final project for my intermediate HTML/CSS course I am taking along with the Odin Project curriculum. I will be building a mockup design for a website using a combination of grid and flexbox. Only the frontend framework with out the backend for this lesson.
